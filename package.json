@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/regevbr/log4js-cloudwatch-appender#readme",
   "dependencies": {
-    "lawgs": "^1.0.4"
+    "lawgs": "https://github.com/liangwp/lawgs/tarball/master"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
