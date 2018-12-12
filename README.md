@@ -13,6 +13,8 @@
 # log4js-cloudwatch-appender
 Simple appender for log4js to submit logs to AWS cloudwatch based on the [lawgs](https://github.com/mentum/lawgs) module.
 
+liangwp: Attempt to fix bug where node process does not exit after program completion
+
 ## Installation
 
 This module is installed via npm:
@@ -58,7 +60,7 @@ If you are using roles, you will need the following roles:
 
 ### mandatory
 
-- `region` - The CloudWatch region 
+- `region` - The CloudWatch region
 - `logGroup` - The log group to send the metrics to
 - `logStream` - The log stream of the group to send the metrics to
 
@@ -74,8 +76,8 @@ If you are using roles, you will need the following roles:
 
 ## Suggested json layout
 
-Logs are easier to query whn they are formatted as json. 
-Following is a suggested json layout to set for this appender. 
+Logs are easier to query whn they are formatted as json.
+Following is a suggested json layout to set for this appender.
 The logging style should be:
 
 ```js
