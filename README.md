@@ -13,7 +13,9 @@
 # log4js-cloudwatch-appender
 Simple appender for log4js to submit logs to AWS cloudwatch based on the [lawgs](https://github.com/mentum/lawgs) module.
 
-liangwp: Attempt to fix bug where node process does not exit after program completion
+liangwp: Fixed bug where node process does not exit after program completion  
+installation (not on npm): `npm install --save "https://github.com/liangwp/log4js-cloudwatch-appender/tarball/master"`  
+Dependency `lawgs` has been changed to liangwp custom version at https://github.com/liangwp/lawgs
 
 ## Installation
 
